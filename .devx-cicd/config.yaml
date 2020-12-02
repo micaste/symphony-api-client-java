@@ -1,7 +1,7 @@
 build:
   - image: 'adoptopenjdk/openjdk8:slim'
     commands:
-      - './gradlew -x test'
+      - unknown command
 publishSnapshot:
   - image: 'adoptopenjdk/openjdk8:slim'
     commands:
